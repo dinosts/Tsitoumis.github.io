@@ -1,18 +1,36 @@
 body{
-	background-color: #f9f9f9;
-	font-family: "Crimson Text";
+	background-color: #f1f1f1;
 }
 
 .main{
 	background: #fff;
 }
+.repo-language-color {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+.gits
+{
+    border: 1px solid black;
+    border-radius: 6px;
+	padding: 2%;
+	font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;;
+	font-weight: bold;
+   	text-decoration: none;
+	color: black;
+}
+
 
 .home-description{
-	font-style: italic;
-	font-weight: 600;
-	font-family: "Crimson";
+	font-weight: bold;
+	font-family: 'Courier New', monospace;
+	text-align: left;
 	font-size: 19px;
-    padding-top: 15px;
+    padding-top: 35%;
     padding-bottom: 25px;
     line-height: 29px;
 
@@ -31,8 +49,8 @@ body{
 
 .social a:hover i{
 	color: #fff;
-	border-color: #bb9e7d;
-	background-color: #bb9e7d;
+	background-color: #000000;
+	border-color: #000000;
 	}
 
 
@@ -82,8 +100,8 @@ body{
 
 .btn-rabbit:hover{
 	color: #fff;
-	background-color: #bb9e7d;
-	border-color: #bb9e7d;}
+	background-color: #000000;
+	border-color: #000000;}
 
 p{
 	color: #585757;
@@ -175,7 +193,8 @@ footer{
 
 ::selection {
 	color: #fff;
-   	background-color: #bb9e7d;
+	background-color: #000000;
+	border-color: #000000;
 }
 
 .bottom{
@@ -207,15 +226,16 @@ footer{
 }
 
 .subtitle{
-	font-style: italic;
 	font-weight: 600;
 	font-size: 20px;
 	color: #3b3b3b;
 	line-height: 28px;
-	font-family: "Crimson";
 	margin-top: 15px;
 	margin-bottom: 20px;
 	padding-right: 40px;
+	font-weight: bold;
+	font-family: 'Courier New', monospace;
+	text-align: left;
 
 	}
 .page-title:after{
@@ -294,7 +314,7 @@ footer{
 }
 
 .owl-theme .owl-controls .owl-nav [class*=owl-]:hover{
-	background-color: #bb9e7d;
+	background-color: #9c9c9c;
 	border-color: #bb9e7d;
 }
 .owl-theme .owl-controls .owl-nav [class*=owl-]:hover i{
