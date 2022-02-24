@@ -1,0 +1,11 @@
+.nav-item {
+  color: white;
+  text-decoration: none;
+}
+.nav-item:hover {
+  color: white;
+}
+
+.active {
+  border-color: #222d3d;
+}
