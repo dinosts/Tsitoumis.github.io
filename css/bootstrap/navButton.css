@@ -4,6 +4,7 @@
 }
 .nav-item:hover {
   color: white;
+  cursor: pointer;
 }
 
 .active {
